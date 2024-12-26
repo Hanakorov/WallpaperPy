@@ -1,6 +1,6 @@
 # WallpaperPy
  Utility to change desktop wallpaper via path (ctypes, tkinter, struct)
- ##Check if 64 bit
+## Check if 64 bit
   ```python
   def is_64bit_windows():
     return struct.calcsize('P') * 8 == 64
