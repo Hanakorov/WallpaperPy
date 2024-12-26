@@ -5,7 +5,7 @@
   def is_64bit_windows():
     return struct.calcsize('P') * 8 == 64
   ```
-##Change desktop background depending on bit size
+## Change desktop background depending on bit size
   ```python
   def changeBG(path):
     try:
@@ -16,7 +16,7 @@
     except Exception as e:
         messagebox.showerror("Error", f"Failed to change wallpaper:\n{e}")
   ```
-##Open file dialog to select an image
+## Open file dialog to select an image
   ```python
   def select_image():
     file_path = filedialog.askopenfilename(
