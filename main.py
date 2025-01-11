@@ -19,7 +19,7 @@ def changeBG(path):
         else:
             ctypes.windll.user32.SystemParametersInfoA(SPI_SETDESKWALLPAPER, 0, path, 3)
     except Exception as e:
-        messagebox.showerror("Error", f"Failed to change wallpaper:\n{e}")
+        messagebox.showerror("Error", f"Failed to change wall:\n{e}")
 
 
 def select_image():
